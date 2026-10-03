@@ -3,47 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Personal portfolio</title>
+  <title>Contact | Lei Zhe Yu</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <nav aria-label="Main navigation">
-      <a href="../index.html">Home</a>
-      <a href="../projects/index.html">Projects</a>
-      <a href="index.html" aria-current="page">Contact</a>
-      <a href="../resume/index.html">Résumé</a>
-      <a href="https://github.com/0calunknown" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-    </nav>
-  </header>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="index.html">Contact</a>
+    <a href="../resume/index.html">Resume</a>
+    <a href="https://github.com/0calunknown" target="_blank">GitHub</a>
+  </nav>
 
-  <main id="main">
-    <p class="eyebrow">Let’s connect</p>
-    <h1>Contact</h1>
-    <p class="intro">Have a question about a project, or an idea to share? Write me a message.</p>
-    <p id="email-help">This form opens your email app. You can review the message there before sending it.</p>
+  <h1>Contact</h1>
 
-    <!-- Add the owner's supplied public email after "mailto:". -->
-    <form action="mailto:" method="POST" enctype="text/plain" aria-describedby="email-help">
-      <label>
-        Your email
-        <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
-      </label>
-      <label>
-        Subject
-        <input name="subject" type="text" placeholder="What would you like to talk about?" required>
-      </label>
-      <label>
-        Message
-        <textarea name="body" rows="6" placeholder="Write your message here…" required></textarea>
-      </label>
-      <button type="submit">Open email draft</button>
-    </form>
-  </main>
-
-  <footer class="site-footer">
-    <p>Personal portfolio · Built for DSC 106.</p>
-  </footer>
+  <form action="mailto:leizheyu1@gmail.com" method="POST" enctype="text/plain">
+    <label>
+      Email
+      <input name="email" type="email">
+    </label>
+    <label>
+      Subject
+      <input name="subject">
+    </label>
+    <label>
+      Message
+      <textarea name="body"></textarea>
+    </label>
+    <button>Submit</button>
+  </form>
 </body>
 </html>
