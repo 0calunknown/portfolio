@@ -1,9 +1,19 @@
 :root {
   --color-accent: oklch(65% 50% 0);
+  --border-color: oklch(50% 10% 200 / 40%);
+  color-scheme: light dark;
 }
 
 html {
   accent-color: var(--color-accent);
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+  font-family: inherit;
 }
 
 body {
@@ -34,7 +44,7 @@ h1 {
 nav {
   display: flex;
   margin-bottom: 1em;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  border-bottom: 1px solid var(--border-color);
 
   ul,
   li {
@@ -49,14 +59,14 @@ nav {
     padding: 0.5em;
 
     &.current {
-      border-bottom: 0.4em solid oklch(80% 3% 200);
+      border-bottom: 0.4em solid var(--border-color);
       padding-bottom: calc(0.5em - 0.4em);
     }
 
     &:hover {
       border-bottom: 0.4em solid var(--color-accent);
       padding-bottom: calc(0.5em - 0.4em);
-      background-color: oklch(from var(--color-accent) 95% 5% h);
+      background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
     }
   }
 }
@@ -134,7 +144,7 @@ form {
       text-transform: uppercase;
       letter-spacing: 0.08em;
       font-size: 120%;
-      border-bottom: 1px solid oklch(80% 3% 200);
+      border-bottom: 1px solid var(--border-color);
       padding-bottom: 0.25em;
     }
   }
@@ -142,7 +152,7 @@ form {
   article {
     margin-block: 1.25em;
     padding-left: 1em;
-    border-left: 3px solid oklch(from var(--color-accent) 85% 15% h);
+    border-left: 3px solid color-mix(in oklch, var(--color-accent), canvas 60%);
 
     header {
       h3 {
@@ -151,7 +161,7 @@ form {
 
       p {
         margin: 0.25em 0 0;
-        color: oklch(50% 0 0);
+        opacity: 0.7;
         font-size: 90%;
       }
     }
@@ -167,7 +177,7 @@ form {
     li {
       padding: 0.25em 0.75em;
       border-radius: 999px;
-      background-color: oklch(from var(--color-accent) 95% 5% h);
+      background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
     }
   }
 }
