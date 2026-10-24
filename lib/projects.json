@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "This site! Built with HTML, CSS, and JavaScript for DSC 106, featuring an automatic navigation menu, a dark mode switcher, and projects rendered from a JSON file."
+  },
+  {
+    "title": "GitHub Profile Stats",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Fetches live data from the GitHub REST API and displays my public repos, gists, followers, and following on the home page."
+  },
+  {
+    "title": "Grocery Nutrition Visualization",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Explored a grocery product database with Python and matplotlib, comparing nutrient profiles and processing levels across store categories."
+  },
+  {
+    "title": "Server Data Management",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Organized departmental data servers and access permissions for over 500 student and staff users at San Jose City College, improving storage efficiency by 15%."
+  },
+  {
+    "title": "Smart City IoT Monitor",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "An environmental monitoring system using a Raspberry Pi and a DHT11 sensor, streaming real-time temperature and humidity data to ThingSpeak and forecasting it with linear regression."
+  },
+  {
+    "title": "Deleterious Genes and TAD Boundaries",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Analyzed more than 100 GB of genomic data at San Jose State University to study where deleterious genes fall relative to topologically associating domain boundaries."
+  },
+  {
+    "title": "Chromatin Interaction Visualizations",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Interactive Plotly charts of chromatin interaction data, showing trends in gene density and coding sequence lengths."
+  },
+  {
+    "title": "Dreamer Resource Center Website",
+    "year": "2023",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Designed and deployed a website for the San Jose City College Dreamer Resource Center, linking more than 50 resources for undocumented and AB 540 students."
+  },
+  {
+    "title": "Data Structures in Java",
+    "year": "2023",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Implementations of linked lists, hash tables, heaps, and binary search trees in Java, with unit tests and runtime analysis."
+  },
+  {
+    "title": "C++ Inventory Manager",
+    "year": "2022",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A command-line inventory tracking program written in C++ using classes, file I/O, and dynamic memory."
+  },
+  {
+    "title": "Three Card Poker",
+    "year": "2022",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "A playable Three Card Poker game that simulates dealing, evaluates hands, and computes payouts."
+  },
+  {
+    "title": "Lorem ipsum dolor sit.",
+    "year": "2021",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
+  }
+]
