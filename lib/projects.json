@@ -60,10 +60,10 @@
     "description": "A command-line inventory tracking program written in C++ using classes, file I/O, and dynamic memory."
   },
   {
-    "title": "Three Card Poker",
-    "year": "2022",
+    "title": "Three Card Poker Strategy Simulation",
+    "year": "2026",
     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
-    "description": "A playable Three Card Poker game that simulates dealing, evaluates hands, and computes payouts."
+    "description": "Tests whether the Q-6-4 playing strategy minimizes the house edge in Three Card Poker, using a tested Python game engine, Monte Carlo simulation, and exhaustive enumeration of every hand to find the exact optimal cutoff."
   },
   {
     "title": "Lorem ipsum dolor sit.",
